@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="149.1999969482422" viewBox="508 217.1999969482422 140 149.1999969482422">
+<defs/>
+<g/><g/><g/><g/><g/><g/><g/>
+<g id="c1">
+<g id="tile1">
+<g>
+<rect width="105.5999984741211" height="105.5999984741211" x="525.2000122070312" y="217.1999969482422" fill="rgb(255, 241, 235)" stroke="rgb(246, 213, 199)" stroke-width="0.8px" rx="30" ry="30"/>
+</g>
+<g id="i1" mask="url(#mask-for-i11)">
+<g/><g/><g/><g/><g/><g/><g/>
+<mask id="mask-for-i11">
+<rect width="64" height="64" x="546" y="238" fill="#ffffff"/>
+</mask>
+<g transform="matrix(1.33333 0 0 1.33333 546 238)">
+<path d="M6 24Q18 9 33 24Q18 39 6 24Z" fill="rgb(255, 224, 209)" color="rgb(0, 0, 0)" direction="rtl" stroke="rgb(212, 69, 12)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6px"/>
+<path d="M33 24L42 15V33Z" fill="rgb(255, 187, 156)" color="rgb(0, 0, 0)" direction="rtl" stroke="rgb(212, 69, 12)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6px"/>
+<circle cx="14" cy="22.5" r="1.8" fill="rgb(212, 69, 12)" stroke="none" color="rgb(0, 0, 0)" direction="rtl" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6px"/>
+<path d="M21 17.5Q25 24 21 30.5" color="rgb(0, 0, 0)" direction="rtl" fill="none" stroke="rgb(212, 69, 12)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6px"/>
+</g>
+</g>
+</g>
+<g id="span1">
+<text color="rgb(43, 27, 20)" dominant-baseline="text-after-edge" font-family=""Noto Sans Arabic", system-ui, sans-serif" font-size="16px" font-size-adjust="none" font-stretch="100%" font-style="normal" font-variant="normal" font-weight="700" direction="rtl" letter-spacing="normal" text-decoration="none" text-anchor="start" text-rendering="auto" unicode-bidi="normal" word-spacing="0px" writing-mode="horizontal-tb" user-select="text" fill="rgb(43, 27, 20)">
+<tspan xml:space="preserve" x="553.2625122070312" y="366.3999938964844" textLength="49.4749755859375" lengthAdjust="spacingAndGlyphs">بحريات</tspan>
+</text>
+</g>
+</g>
+</svg>

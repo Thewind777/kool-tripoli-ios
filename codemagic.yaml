@@ -1,0 +1,88 @@
+# KooiTripoli-iOS - CI/CD Configuration
+# Generated for production-ready iOS app
+# Primary branch: main
+# CI/CD Provider: Codemagic
+
+# Workflow: ios-release
+# Instance type: mac_mini_m2
+# Max build duration: 60 minutes
+# Xcode: latest
+# CocoaPods: default (not needed - pure SwiftUI project)
+
+# Secret group: kool_tripoli_build_secrets
+# Must be configured on codemagic.io
+
+# Environment Variables (from kool_tripoli_build_secrets group):
+# TEAM_ID: Apple Developer Team ID
+# BUNDLE_ID: com.kooi.tripoli
+# PROFILE_NAME: KooiTripoli Dist
+# PROFILE_UUID: <provisioning-profile-uuid>
+# SCHEME: KooiTripoli
+# WORKSPACE: KooiTripoli.xcworkspace (or KooiTripoli.xcodeproj)
+
+# Since this is a pure SwiftUI project without CocoaPods,
+# the CocoaPods step can be skipped or set to "skip"
+
+# Build workflow steps adapted for no-Pod project:
+
+# 1. Install Dependencies
+#    - Skip CocoaPods (no Podfile in this project)
+#    - No additional dependencies needed
+
+# 2. Set up code signing
+#    - Decode base64 CM_CERTIFICATE -> .p12 file
+#    - Add certificate to keychain using CM_CERTIFATE_PASSWORD
+#    - Decode base64 CM_PROVISIONING_PROFILE -> .mobileprovision
+#    - Copy to ~/Library/MobileDevice/Provisioning Profiles/
+
+# 3. Verify signing assets
+#    - List installed provisioning profiles
+#    - Check keychain for codesigning identities
+#    - Validate Apple Distribution identity exists
+
+# 4. Archive and export IPA
+#    - Use xcodebuild archive with CODE_SIGN_STYLE=Manual
+#    - Export with method: app-store-connect (native App Store Connect publishing)
+#    - Generate build number from timestamp: yymmddHHMMSS
+
+# 5. Publishing to TestFlight
+#    - Use Codemagic's native App Store Connect publishing
+#    - Configure via APP_STORE_CONNECT_PRIVATE_KEY, KEY_IDENTIFIER, ISSUER_ID
+#    - Upload symbols, strip Swift symbols
+
+# Artifacts Produced:
+# - build/ios/ipa/*.ipa (installable IPA)
+# - build/ios/xcarchive/*.xcarchive (debug symbols included)
+# - /tmp/xcodebuild_logs/*.log (build logs)
+
+# Known Issues & Blocking Points:
+# 1. Secret group kool_tripoli_build_secrets must be verified/updated on codemagic.io
+#    - Certificates/profiles may need renewal
+#    - Provisioning profiles must match Team ID 9FFXKQ75HM (or appropriate team)
+# 2. Minimum iOS version: 15.0 (confirmed in project settings)
+# 3. WebRTC not included in this project (unlike kool-provider-app-ios)
+
+# Recommended Next Steps:
+# Option 1: Resume with Codemagic (RECOMMENDED)
+# 1. Go to https://codemagic.io
+# 2. Select project or create new
+# 3. Add secret group kool_tripoli_build_secrets:
+#    - CM_CERTIFICATE: base64-encoded distribution .p12 certificate
+#    - CM_CERTIFICATE_PASSWORD: p12 password
+#    - CM_PROVISIONING_PROFILE: base64-encoded KooiTripoli_Dist.mobileprovision
+#    - TEAM_ID: Apple Developer Team ID
+#    - BUNDLE_ID: com.kooi.tripoli
+#    - PROFILE_NAME: KooiTripoli Dist
+#    - PROFILE_UUID: <provisioning-profile-uuid>
+#    - SCHEME: KooiTripoli
+# 4. Trigger build on main branch
+# 5. Build will archive, export IPA, and upload to TestFlight Internal
+
+# Option 2: Fix GitHub Actions
+# 1. Resolve billing at https://github.com/settings/billing
+# 2. Create workflow similar to deploy-testflight.yml from kool-provider-app-ios
+# 3. Note: This project has no CocoaPods dependencies, so workflow is simpler
+
+# File Paths Reference:
+# - C:\Users\moaidaimbot\Desktop\Kool\KooiTripoli-iOS\codemagic.yaml
+# - Project: C:\Users\moaidaimbot\Desktop\Kool\KooiTripoli-iOS\KooiTripoli.xcodeproj

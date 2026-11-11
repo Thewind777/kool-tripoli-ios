@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="149.1999969482422" viewBox="820 217.1999969482422 140 149.1999969482422">
+<defs/>
+<g/><g/><g/><g/><g/><g/><g/>
+<g id="c1">
+<g id="tile1">
+<g>
+<rect width="105.5999984741211" height="105.5999984741211" x="837.2000122070312" y="217.1999969482422" fill="rgb(255, 241, 235)" stroke="rgb(246, 213, 199)" stroke-width="0.8px" rx="30" ry="30"/>
+</g>
+<g id="i1" mask="url(#mask-for-i11)">
+<g/><g/><g/><g/><g/><g/><g/>
+<mask id="mask-for-i11">
+<rect width="64" height="64" x="858" y="238" fill="#ffffff"/>
+</mask>
+<g transform="matrix(1.33333 0 0 1.33333 858 238)">
+<path d="M16 22C14 12 24 5 33 8C42 11 42 24 34 29C30 32 25 33 21 31Z" fill="rgb(255, 187, 156)" color="rgb(0, 0, 0)" direction="rtl" stroke="rgb(212, 69, 12)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6px"/>
+<path d="M26 14Q31 13 34 17" color="rgb(0, 0, 0)" direction="rtl" fill="none" stroke="rgb(212, 69, 12)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6px"/>
+<path d="M21 30L11 40" color="rgb(0, 0, 0)" direction="rtl" fill="none" stroke="rgb(212, 69, 12)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6px"/>
+<circle cx="8.5" cy="38" r="3.2" fill="rgb(255, 224, 209)" color="rgb(0, 0, 0)" direction="rtl" stroke="rgb(212, 69, 12)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6px"/>
+<circle cx="12.5" cy="42.5" r="3.2" fill="rgb(255, 224, 209)" color="rgb(0, 0, 0)" direction="rtl" stroke="rgb(212, 69, 12)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6px"/>
+</g>
+</g>
+</g>
+<g id="span1">
+<text color="rgb(43, 27, 20)" dominant-baseline="text-after-edge" font-family=""Noto Sans Arabic", system-ui, sans-serif" font-size="16px" font-size-adjust="none" font-stretch="100%" font-style="normal" font-variant="normal" font-weight="700" direction="rtl" letter-spacing="normal" text-decoration="none" text-anchor="start" text-rendering="auto" unicode-bidi="normal" word-spacing="0px" writing-mode="horizontal-tb" user-select="text" fill="rgb(43, 27, 20)">
+<tspan xml:space="preserve" x="872.7875366210938" y="366.3999938964844" textLength="34.42498779296875" lengthAdjust="spacingAndGlyphs">دجاج</tspan>
+</text>
+</g>
+</g>
+</svg>
