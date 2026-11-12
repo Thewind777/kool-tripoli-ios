@@ -32,7 +32,7 @@
 			isa = XCBuildConfigurationList;
 		};
 	};
-	objectVersion = 57;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
