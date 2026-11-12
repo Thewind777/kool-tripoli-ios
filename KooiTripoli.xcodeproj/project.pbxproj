@@ -2,190 +2,308 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objecVersion = 56;
-tobjects = {
-	/* Begin PBXProject object */
-	6FC806E1234567890ABCDEFGHIJ /* Project object */ = {
-		isa = PBXProject;
-		attributes = {
-		};
-		};
-	/* End PBXProject object */
-	/* Begin XCBuildConfigurationList */
-	A1B2C3D4E5F6A1B2C3D4E5F6A1B2C3D4 /* Build configuration list */ = {
-		isa = XCBuildConfigurationList;
-		buildConfigurations = {
-			R1S2T3D4 /* Release configuration */;
-			D4E3C2B1 /* Debug configuration */;
-			};
-		defaultConfigurationName = Release;
-		/* End XCBuildConfigurationList */
-	/* Begin XCBuildConfiguration R1S2T3D4 */
-	R1S2T3D4 /* Release configuration */ = {
-		isa = XCBuildConfiguration;
-		buildSettings = {
-			ASSEARCHPATHS = "";
-			CLANG_WARN_BOOL_CONVERSION = YES;
-			CLANG_WARN_INT_CONVERSION = YES;
-			GCC_ENABLE_CXX_RTTI = YES;
-			GCC_NO_DERIVED_TYPE = YES;
-			PRODUCT_NAME = KooiTripoli;
-			SDKROOT = iphoneos15.0;
-			};
-		/* End XCBuildConfiguration R1S2T3D4 */
-	/* Begin XCBuildConfiguration D4E3C2B1 */
-	D4E3C2B1 /* Debug configuration */ = {
-		isa = XCBuildConfiguration;
-		buildSettings = {
-			ASSEARCHPATHS = "";
-			CLANG_WARN_BOOL_CONVERSION = YES;
-			CLANG_WARN_INT_CONVERSION = YES;
-			GCC_ENABLE_CXX_RTTI = YES;
-			GCC_NO_DERIVED_TYPE = YES;
-			PRODUCT_NAME = KooiTripoli-Debug;
-			SDKROOT = iphoneos15.0;
-			};
-		/* End XCBuildConfiguration D4E3C2B1 */
-	/* Begin PBXNativeTarget */
-	K1L2M3N4O5P6Q7R8S9T0 /* KooiTripoli in KooiTripoli */ = {
-		isa = PBXNativeTarget;
-		buildConfigurationList = A1B2C3D4E5F6A1B2C3D4E5F6A1B2C3D4 /* Build configuration list */;
-		builtinResourcesPlistFile = KooiTripoli/Info.plist;
-		completionPolicy = "";
-		configurations = {
-			R1S2T3D4 /* Release */;
-			D4E3C2B1 /* Debug */;
-			};
-		defaultConfigurationName = Release;
+	objectVersion = 56;
+	objects = {
 
-		/* Build Phases */
-		/* Begin PBXSourcesBuildPhase */
-		S1T2R3Q4P5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildByBuilding = YES;
-			files = {
-			};
-			/* End PBXSourcesBuildPhase */
-		/* Begin PBXFrameworksBuildPhase */
+/* Begin PBXBuildFile section */
+		/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		S1T2R3Q4P6 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Models/Enums.swift; sourceTree = "<group>"; };
+		S2T2R3Q4P7 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Models/Restaurant.swift; sourceTree = "<group>"; };
+		S3T2R3Q4P8 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Models/Order.swift; sourceTree = "<group>"; };
+		S4T2R3Q4P9 /* LoyaltyWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Models/LoyaltyWallet.swift; sourceTree = "<group>"; };
+		S5T2R3Q4P10 /* GroupOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Models/GroupOrder.swift; sourceTree = "<group>"; };
+		S6T2R3Q4P11 /* Enums.swift in Domain */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/Enums.swift; sourceTree = "<group>"; };
+		S7T2R3Q4P12 /* FoodStreetRecommendationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/FoodStreetRecommendationEngine.swift; sourceTree = "<group>"; };
+		S8T2R3Q4P13 /* GroupOrderStateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/GroupOrderStateMachine.swift; sourceTree = "<group>"; };
+		S9T2R3Q4P14 /* ScheduledOfferEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/ScheduledOfferEngine.swift; sourceTree = "<group>"; };
+		S10T2R3Q4P15 /* LoyaltyDomainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/LoyaltyDomainService.swift; sourceTree = "<group>"; };
+		S11T2R3Q4P16 /* WalletLedgerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/WalletLedgerService.swift; sourceTree = "<group>"; };
+		S12T2R3Q4P17 /* SecureTokenGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/SecureTokenGenerator.swift; sourceTree = "<group>"; };
+		S1T2R3Q4P18 /* KooiTripoliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/KooiTripoliApp.swift; sourceTree = "<group>"; };
+		S1T2R3Q4P19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Views/ContentView.swift; sourceTree = "<group>"; };
+		S1T2R3Q4P20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = KooiTripoli/Info.plist; sourceTree = "<group>"; };
+		S1T2R3Q4P21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = KooiTripoli/Assets.xcassets; sourceTree = "<group>"; };
+		S1T2R3Q4P22 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = KooiTripoli/GoogleService-Info.plist; sourceTree = "<group>"; };
+		S1T2R3Q4P23 /* GMAPKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = KooiTripoli/GMAPKeys.plist; sourceTree = "<group>"; };
+		S1T2R3Q4P24 /* Tajawal-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/Tajawal-Regular.ttf; sourceTree = "<group>"; };
+		S1T2R3Q4P25 /* Tajawal-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/Tajawal-Medium.ttf; sourceTree = "<group>"; };
+		S1T2R3Q4P26 /* Tajawal-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/Tajawal-Bold.ttf; sourceTree = "<group>"; };
+		S1T2R3Q4P27 /* PlusJakartaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/PlusJakartaSans-Regular.ttf; sourceTree = "<group>"; };
+		S1T2R3Q4P28 /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/PlusJakartaSans-Medium.ttf; sourceTree = "<group>"; };
+		S1T2R3Q4P29 /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/PlusJakartaSans-SemiBold.ttf; sourceTree = "<group>"; };
+		S1T2R3Q4P30 /* PlusJakartaSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/PlusJakartaSans-Bold.ttf; sourceTree = "<group>"; };
+		P2Q3R4S5T6 /* KooiTripoli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KooiTripoli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
 		F1S2R3Q4P5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildByBuilding = YES;
-			files = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		M1N2O3P4Q5 /* KooiTripoli */ = {
+			isa = PBXGroup;
+			children = (
+				S1T2R3Q4P18 /* KooiTripoliApp.swift */,
+				S1T2R3Q4P19 /* ContentView.swift */,
+				M1N2O3P4Q6 /* Models */,
+				M1N2O3P4Q7 /* Domain */,
+				M1N2O3P4Q8 /* Views */,
+				M1N2O3P4Q9 /* Resources */,
+				S1T2R3Q4P21 /* Assets.xcassets */,
+				S1T2R3Q4P20 /* Info.plist */,
+				S1T2R3Q4P22 /* GoogleService-Info.plist */,
+				S1T2R3Q4P23 /* GMAPKeys.plist */,
+				M1N2O3P4Q10 /* Fonts */,
+			);
+			path = KooiTripoli;
+			sourceTree = "<group>";
+		};
+		M1N2O3P4Q6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				S1T2R3Q4P6 /* Enums.swift */,
+				S2T2R3Q4P7 /* Restaurant.swift */,
+				S3T2R3Q4P8 /* Order.swift */,
+				S4T2R3Q4P9 /* LoyaltyWallet.swift */,
+				S5T2R3Q4P10 /* GroupOrder.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		M1N2O3P4Q7 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				S6T2R3Q4P11 /* Enums.swift in Domain */,
+				S7T2R3Q4P12 /* FoodStreetRecommendationEngine.swift */,
+				S8T2R3Q4P13 /* GroupOrderStateMachine.swift */,
+				S9T2R3Q4P14 /* ScheduledOfferEngine.swift */,
+				S10T2R3Q4P15 /* LoyaltyDomainService.swift */,
+				S11T2R3Q4P16 /* WalletLedgerService.swift */,
+				S12T2R3Q4P17 /* SecureTokenGenerator.swift */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		M1N2O3P4Q8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				S1T2R3Q4P19 /* ContentView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		M1N2O3P4Q9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				S1T2R3Q4P20 /* Info.plist */,
+				S1T2R3Q4P22 /* GoogleService-Info.plist */,
+				S1T2R3Q4P23 /* GMAPKeys.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		M1N2O3P4Q10 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				S1T2R3Q4P24 /* Tajawal-Regular.ttf */,
+				S1T2R3Q4P25 /* Tajawal-Medium.ttf */,
+				S1T2R3Q4P26 /* Tajawal-Bold.ttf */,
+				S1T2R3Q4P27 /* PlusJakartaSans-Regular.ttf */,
+				S1T2R3Q4P28 /* PlusJakartaSans-Medium.ttf */,
+				S1T2R3Q4P29 /* PlusJakartaSans-SemiBold.ttf */,
+				S1T2R3Q4P30 /* PlusJakartaSans-Bold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		P1Q2R3S4T5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				P2Q3R4S5T6 /* KooiTripoli.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		K1L2M3N4O5P6Q7R8S9T0 /* KooiTripoli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1C2D3E4F5G6H7I8J9K0 /* Build configuration list for PBXNativeTarget "KooiTripoli" */;
+			buildPhases = (
+				S1T2R3Q4P5 /* Sources */,
+				F1S2R3Q4P5 /* Frameworks */,
+				L1S2R3Q4P5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KooiTripoli;
+			productName = KooiTripoli;
+			productReference = P2Q3R4S5T6 /* KooiTripoli.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FC806E1234567890ABCDEFGHIJ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 1500;
+				LastUpgradeCheck = 1640;
 			};
-			/* End PBXFrameworksBuildPhase */
-		/* Begin PBXLinkPhase */
-		L1S2R3Q4P5 /* Link */ = {
-			isa = PBXLinkPhase;
-			buildByBuilding = YES;
-			files = {
+			buildConfigurationList = A1B2C3D4E5F6A1B2C3D4E5F6A1B2C3D4 /* Build configuration list for PBXProject "KooiTripoli" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = M1N2O3P4Q5 /* KooiTripoli */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				K1L2M3N4O5P6Q7R8S9T0 /* KooiTripoli */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		L1S2R3Q4P5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S1T2R3Q4P5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				S1T2R3Q4P6 /* Enums.swift in Sources */,
+				S2T2R3Q4P7 /* Restaurant.swift in Sources */,
+				S3T2R3Q4P8 /* Order.swift in Sources */,
+				S4T2R3Q4P9 /* LoyaltyWallet.swift in Sources */,
+				S5T2R3Q4P10 /* GroupOrder.swift in Sources */,
+				S6T2R3Q4P11 /* Enums.swift in Domain in Sources */,
+				S7T2R3Q4P12 /* FoodStreetRecommendationEngine.swift in Sources */,
+				S8T2R3Q4P13 /* GroupOrderStateMachine.swift in Sources */,
+				S9T2R3Q4P14 /* ScheduledOfferEngine.swift in Sources */,
+				S10T2R3Q4P15 /* LoyaltyDomainService.swift in Sources */,
+				S11T2R3Q4P16 /* WalletLedgerService.swift in Sources */,
+				S12T2R3Q4P17 /* SecureTokenGenerator.swift in Sources */,
+				S1T2R3Q4P18 /* KooiTripoliApp.swift in Sources */,
+				S1T2R3Q4P19 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		R1S2T3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FFXKQ75HM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = KooiTripoli/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kooi.tripoli;
+				PRODUCT_NAME = $(TARGET_NAME);
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			/* End PBXLinkPhase */
-		/* Begin PBXCopyFilesBuildPhase */
-		C1O2P3Q4R5 /* Copy files */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildByBuilding = YES;
-			runOnlyForDeploymentPostprocessing = no;
-			/* End PBXCopyFilesBuildPhase */
-		/* End Build Phases */
-		/* Begin PBXFileReference */
-		/* Swift Files */
-S1T2R3Q4P6 /* Enums.swift */ = {
-	isa = PBXFileReference;
-	lastKnownFileType = sourcecode.swift;
-	path = KooiTripoli/Models/Enums.swift;
-	};
-S2T2R3Q4P7 /* Restaurant.swift */ = {
-	isa = PBXFileReference;
-	lastKnownFileType = sourcecode.swift;
-	path = KooiTripoli/Models/Restaurant.swift;
-	};
-S3T2R3Q4P8 /* Order.swift */ = {
-	isa = PBXFileReference;
-	lastKnownFileType = sourcecode.swift;
-	path = KooiTripoli/Models/Order.swift;
-	};
-S4T2R3Q4P9 /* LoyaltyWallet.swift */ = {
-	isa = PBXFileReference;
-	lastKnownFileType = sourcecode.swift;
-	path = KooiTripoli/Models/LoyaltyWallet.swift;
-	};
-S5T2R3Q4P10 /* GroupOrder.swift */ = {
-	isa = PBXFileReference;
-	lastKnownFileType = sourcecode.swift;
-	path = KooiTripoli/Models/GroupOrder.swift;
-	};
-S6T2R3Q4P11 /* Enums.swift in Domain */ = {
-	isa = PBXFileReference;
-	lastKnownFileType = sourcecode.swift;
-	path = KooiTripoli/Domain/Enums.swift;
-	};
-S7T2R3Q4P12 /* FoodStreetRecommendationEngine.swift */ = {
-	isa = PBXFileReference;
-	lastKnownFileType = sourcecode.swift;
-	path = KooiTripoli/Domain/FoodStreetRecommendationEngine.swift;
-	};
-S8T2R3Q4P13 /* GroupOrderStateMachine.swift */ = {
-	isa = PBXFileReference;
-	lastKnownFileType = sourcecode.swift;
-	path = KooiTripoli/Domain/GroupOrderStateMachine.swift;
-	};
-S9T2R3Q4P14 /* ScheduledOfferEngine.swift */ = {
-	isa = PBXFileReference;
-	lastKnownFileType = sourcecode.swift;
-	path = KooiTripoli/Domain/ScheduledOfferEngine.swift;
-	};
-S10T2R3Q4P15 /* LoyaltyDomainService.swift */ = {
-	isa = PBXFileReference;
-	lastKnownFileType = sourcecode.swift;
-	path = KooiTripoli/Domain/LoyaltyDomainService.swift;
-	};
-S11T2R3Q4P16 /* WalletLedgerService.swift */ = {
-	isa = PBXFileReference;
-	lastKnownFileType = sourcecode.swift;
-	path = KooiTripoli/Domain/WalletLedgerService.swift;
-	};
-S12T2R3Q4P17 /* SecureTokenGenerator.swift */ = {
-	isa = PBXFileReference;
-	lastKnownFileType = sourcecode.swift;
-	path = KooiTripoli/Domain/SecureTokenGenerator.swift;
-	};
-/* End PBXFileReference */
-	/* Begin PBXGroup */
-	M1N2O3P4Q5 /* KooiTripoli */ = {
-		isa = PBXGroup;
-		children = {
-			S1T2R3Q4P6 /* Enums.swift */;
-			S2T2R3Q4P7 /* Restaurant.swift */;
-			S3T2R3Q4P8 /* Order.swift */;
-			S4T2R3Q4P9 /* LoyaltyWallet.swift */;
-			S5T2R3Q4P10 /* GroupOrder.swift */;
-			S6T2R3Q4P11 /* Enums.swift in Domain */;
-			S7T2R3Q4P12 /* FoodStreetRecommendationEngine.swift */;
-			S8T2R3Q4P13 /* GroupOrderStateMachine.swift */;
-			S9T2R3Q4P14 /* ScheduledOfferEngine.swift */;
-			S10T2R3Q4P15 /* LoyaltyDomainService.swift */;
-			S11T2R3Q4P16 /* WalletLedgerService.swift */;
-			S12T2R3Q4P17 /* SecureTokenGenerator.swift */;
+			name = Release;
+		};
+		D4E3C2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FFXKQ75HM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = KooiTripoli/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kooi.tripoli;
+				PRODUCT_NAME = $(TARGET_NAME);
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-		name = KooiTripoli;
-		sourceTree = "<group>";
-		/* End PBXGroup */
-	/* Begin Products */
-	P1Q2R3S4T5 /* Products */ = {
-		isa = PBXGroup;
-		children = {
-			P2Q3R4S5T6 /* app */;
+			name = Debug;
+		};
+		R1S2T3D4_1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = iphoneos;
 			};
-		name = "Products";
-		sourceTree = "build";
-		/* End Products */
-	/* Begin PBXFileReference P2Q3R4S5T6 */
-	P2Q3R4S5T6 /* KooiTripoli.app */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = wrapper.application;
-		name = KooiTripoli.app;
-		path = Products/KooiTripoli.app;
-		/* End PBXFileReference */
-	} /* End PBXNativeTarget */
-} /* End objects */
-rootObject = 6FC806E1234567890ABCDEFGHIJ /* Project object */;
+			name = Release;
+		};
+		D4E3C2B1_1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCBuildConfigurationList section */
+		A1B2C3D4E5F6A1B2C3D4E5F6A1B2C3D4 /* Build configuration list for PBXProject "KooiTripoli" */ = {
+			isa = XCBuildConfigurationList;
+			buildConfigurations = (
+				R1S2T3D4_1 /* Release */,
+				D4E3C2B1_1 /* Debug */,
+			);
+			defaultConfigurationName = Release;
+		};
+		B1C2D3E4F5G6H7I8J9K0 /* Build configuration list for PBXNativeTarget "KooiTripoli" */ = {
+			isa = XCBuildConfigurationList;
+			buildConfigurations = (
+				R1S2T3D4 /* Release */,
+				D4E3C2B1 /* Debug */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCBuildConfigurationList section */
+	};
+	rootObject = 6FC806E1234567890ABCDEFGHIJ /* Project object */;
+}
