@@ -32,7 +32,7 @@ workflows:
     max_build_duration: 60
     environment:
       xcode: 16.4
-      cocoapods: skip
+      cocoapods: false
       groups:
         - kool_build_secrets
       vars:
