@@ -35,7 +35,7 @@ workflows:
       xcode: 16.4
       cocoapods: skip
       groups:
-        - kool_tripoli_build_secrets
+        - kool_build_secrets
       vars:
         TEAM_ID: 9FFXKQ75HM
         BUNDLE_ID: com.kooi.tripoli
