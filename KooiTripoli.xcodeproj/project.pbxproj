@@ -1,6 +1,36 @@
 // !$*UTF8*$!{
 	archiveVersion = 1;
 	classes = {
+		PBXBuildFile = {
+			isa = PBXBuildFile;
+		};
+		PBXFileReference = {
+			isa = PBXFileReference;
+		};
+		PBXFrameworksBuildPhase = {
+			isa = PBXFrameworksBuildPhase;
+		};
+		PBXGroup = {
+			isa = PBXGroup;
+		};
+		PBXNativeTarget = {
+			isa = PBXNativeTarget;
+		};
+		PBXProject = {
+			isa = PBXProject;
+		};
+		PBXResourcesBuildPhase = {
+			isa = PBXResourcesBuildPhase;
+		};
+		PBXSourcesBuildPhase = {
+			isa = PBXSourcesBuildPhase;
+		};
+		XCBuildConfiguration = {
+			isa = XCBuildConfiguration;
+		};
+		XCBuildConfigurationList = {
+			isa = XCBuildConfigurationList;
+		};
 	};
 	objectVersion = 56;
 	objects = {
