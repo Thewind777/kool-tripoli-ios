@@ -159,7 +159,7 @@
 /* Begin PBXNativeTarget section */
 		K1L2M3N4O5P6Q7R8S9T0 /* KooiTripoli */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1C2D3E4F5G6H7I8J9K0L1 /* Build configuration list for PBXNativeTarget "KooiTripoli" */;
+			buildConfigurationList = B1C2D3E4F5A6B7C8D9E0F1 /* Build configuration list for PBXNativeTarget "KooiTripoli" */;
 			buildPhases = (
 				S1T2R3Q4P5 /* Sources */,
 				F1S2R3Q4P5 /* Frameworks */,
@@ -328,7 +328,7 @@
 			);
 			defaultConfigurationName = Release;
 		};
-		B1C2D3E4F5G6H7I8J9K0L1 /* Build configuration list for PBXNativeTarget "KooiTripoli" */ = {
+		B1C2D3E4F5A6B7C8D9E0F1 /* Build configuration list for PBXNativeTarget "KooiTripoli" */ = {
 			isa = XCBuildConfigurationList;
 			buildConfigurations = (
 				R1S2T3D4 /* Release */,
