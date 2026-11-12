@@ -36,64 +36,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF0000000000000000000001 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = S1T2R3Q4P6 /* Enums.swift */; };
-		BF0000000000000000000002 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = S2T2R3Q4P7 /* Restaurant.swift */; };
-		BF0000000000000000000003 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = S3T2R3Q4P8 /* Order.swift */; };
-		BF0000000000000000000004 /* LoyaltyWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = S4T2R3Q4P9 /* LoyaltyWallet.swift */; };
-		BF0000000000000000000005 /* GroupOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = S5T2R3Q4P10 /* GroupOrder.swift */; };
-		BF0000000000000000000006 /* Enums.swift in Domain in Sources */ = {isa = PBXBuildFile; fileRef = S6T2R3Q4P11 /* Enums.swift in Domain */; };
-		BF0000000000000000000007 /* FoodStreetRecommendationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = S7T2R3Q4P12 /* FoodStreetRecommendationEngine.swift */; };
-		BF0000000000000000000008 /* GroupOrderStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = S8T2R3Q4P13 /* GroupOrderStateMachine.swift */; };
-		BF0000000000000000000009 /* ScheduledOfferEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = S9T2R3Q4P14 /* ScheduledOfferEngine.swift */; };
-		BF0000000000000000000010 /* LoyaltyDomainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = S10T2R3Q4P15 /* LoyaltyDomainService.swift */; };
-		BF0000000000000000000011 /* WalletLedgerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = S11T2R3Q4P16 /* WalletLedgerService.swift */; };
-		BF0000000000000000000012 /* SecureTokenGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = S12T2R3Q4P17 /* SecureTokenGenerator.swift */; };
-		BF0000000000000000000013 /* KooiTripoliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = S1T2R3Q4P18 /* KooiTripoliApp.swift */; };
-		BF0000000000000000000014 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = S1T2R3Q4P19 /* ContentView.swift */; };
-		BF0000000000000000000015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = S1T2R3Q4P21 /* Assets.xcassets */; };
-		BF0000000000000000000016 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = S1T2R3Q4P20 /* Info.plist */; };
-		BF0000000000000000000017 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = S1T2R3Q4P22 /* GoogleService-Info.plist */; };
-		BF0000000000000000000018 /* GMAPKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = S1T2R3Q4P23 /* GMAPKeys.plist */; };
-		BF0000000000000000000019 /* Tajawal-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = S1T2R3Q4P24 /* Tajawal-Regular.ttf */; };
-		BF0000000000000000000020 /* Tajawal-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = S1T2R3Q4P25 /* Tajawal-Medium.ttf */; };
-		BF0000000000000000000021 /* Tajawal-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = S1T2R3Q4P26 /* Tajawal-Bold.ttf */; };
-		BF0000000000000000000022 /* PlusJakartaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = S1T2R3Q4P27 /* PlusJakartaSans-Regular.ttf */; };
-		BF0000000000000000000023 /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = S1T2R3Q4P28 /* PlusJakartaSans-Medium.ttf */; };
-		BF0000000000000000000024 /* PlusJakartaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = S1T2R3Q4P29 /* PlusJakartaSans-SemiBold.ttf */; };
-		BF0000000000000000000025 /* PlusJakartaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = S1T2R3Q4P30 /* PlusJakartaSans-Bold.ttf */; };
+		BF0000000000000000000001 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000001 /* Enums.swift */; };
+		BF0000000000000000000002 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000002 /* Restaurant.swift */; };
+		BF0000000000000000000003 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000003 /* Order.swift */; };
+		BF0000000000000000000004 /* LoyaltyWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000004 /* LoyaltyWallet.swift */; };
+		BF0000000000000000000005 /* GroupOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000005 /* GroupOrder.swift */; };
+		BF0000000000000000000006 /* Enums.swift in Domain in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000006 /* Enums.swift in Domain */; };
+		BF0000000000000000000007 /* FoodStreetRecommendationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000007 /* FoodStreetRecommendationEngine.swift */; };
+		BF0000000000000000000008 /* GroupOrderStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000008 /* GroupOrderStateMachine.swift */; };
+		BF0000000000000000000009 /* ScheduledOfferEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000009 /* ScheduledOfferEngine.swift */; };
+		BF0000000000000000000010 /* LoyaltyDomainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000010 /* LoyaltyDomainService.swift */; };
+		BF0000000000000000000011 /* WalletLedgerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000011 /* WalletLedgerService.swift */; };
+		BF0000000000000000000012 /* SecureTokenGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000012 /* SecureTokenGenerator.swift */; };
+		BF0000000000000000000013 /* KooiTripoliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000013 /* KooiTripoliApp.swift */; };
+		BF0000000000000000000014 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000014 /* ContentView.swift */; };
+		BF0000000000000000000015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000015 /* Assets.xcassets */; };
+		BF0000000000000000000016 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000016 /* Info.plist */; };
+		BF0000000000000000000017 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000017 /* GoogleService-Info.plist */; };
+		BF0000000000000000000018 /* GMAPKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000018 /* GMAPKeys.plist */; };
+		BF0000000000000000000019 /* Tajawal-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000019 /* Tajawal-Regular.ttf */; };
+		BF0000000000000000000020 /* Tajawal-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000020 /* Tajawal-Medium.ttf */; };
+		BF0000000000000000000021 /* Tajawal-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000021 /* Tajawal-Bold.ttf */; };
+		BF0000000000000000000022 /* PlusJakartaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000022 /* PlusJakartaSans-Regular.ttf */; };
+		BF0000000000000000000023 /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000023 /* PlusJakartaSans-Medium.ttf */; };
+		BF0000000000000000000024 /* PlusJakartaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000024 /* PlusJakartaSans-SemiBold.ttf */; };
+		BF0000000000000000000025 /* PlusJakartaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0000000000000000000025 /* PlusJakartaSans-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		S1T2R3Q4P6 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Models/Enums.swift; sourceTree = "<group>"; };
-		S2T2R3Q4P7 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Models/Restaurant.swift; sourceTree = "<group>"; };
-		S3T2R3Q4P8 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Models/Order.swift; sourceTree = "<group>"; };
-		S4T2R3Q4P9 /* LoyaltyWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Models/LoyaltyWallet.swift; sourceTree = "<group>"; };
-		S5T2R3Q4P10 /* GroupOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Models/GroupOrder.swift; sourceTree = "<group>"; };
-		S6T2R3Q4P11 /* Enums.swift in Domain */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/Enums.swift; sourceTree = "<group>"; };
-		S7T2R3Q4P12 /* FoodStreetRecommendationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/FoodStreetRecommendationEngine.swift; sourceTree = "<group>"; };
-		S8T2R3Q4P13 /* GroupOrderStateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/GroupOrderStateMachine.swift; sourceTree = "<group>"; };
-		S9T2R3Q4P14 /* ScheduledOfferEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/ScheduledOfferEngine.swift; sourceTree = "<group>"; };
-		S10T2R3Q4P15 /* LoyaltyDomainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/LoyaltyDomainService.swift; sourceTree = "<group>"; };
-		S11T2R3Q4P16 /* WalletLedgerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/WalletLedgerService.swift; sourceTree = "<group>"; };
-		S12T2R3Q4P17 /* SecureTokenGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/SecureTokenGenerator.swift; sourceTree = "<group>"; };
-		S1T2R3Q4P18 /* KooiTripoliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/KooiTripoliApp.swift; sourceTree = "<group>"; };
-		S1T2R3Q4P19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Views/ContentView.swift; sourceTree = "<group>"; };
-		S1T2R3Q4P20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = KooiTripoli/Info.plist; sourceTree = "<group>"; };
-		S1T2R3Q4P21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = KooiTripoli/Assets.xcassets; sourceTree = "<group>"; };
-		S1T2R3Q4P22 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = KooiTripoli/GoogleService-Info.plist; sourceTree = "<group>"; };
-		S1T2R3Q4P23 /* GMAPKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = KooiTripoli/GMAPKeys.plist; sourceTree = "<group>"; };
-		S1T2R3Q4P24 /* Tajawal-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/Tajawal-Regular.ttf; sourceTree = "<group>"; };
-		S1T2R3Q4P25 /* Tajawal-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/Tajawal-Medium.ttf; sourceTree = "<group>"; };
-		S1T2R3Q4P26 /* Tajawal-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/Tajawal-Bold.ttf; sourceTree = "<group>"; };
-		S1T2R3Q4P27 /* PlusJakartaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/PlusJakartaSans-Regular.ttf; sourceTree = "<group>"; };
-		S1T2R3Q4P28 /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/PlusJakartaSans-Medium.ttf; sourceTree = "<group>"; };
-		S1T2R3Q4P29 /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/PlusJakartaSans-SemiBold.ttf; sourceTree = "<group>"; };
-		S1T2R3Q4P30 /* PlusJakartaSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/PlusJakartaSans-Bold.ttf; sourceTree = "<group>"; };
-		P2Q3R4S5T6 /* KooiTripoli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KooiTripoli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00000000000000000000001 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Models/Enums.swift; sourceTree = "<group>"; };
+		F00000000000000000000002 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Models/Restaurant.swift; sourceTree = "<group>"; };
+		F00000000000000000000003 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Models/Order.swift; sourceTree = "<group>"; };
+		F00000000000000000000004 /* LoyaltyWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Models/LoyaltyWallet.swift; sourceTree = "<group>"; };
+		F00000000000000000000005 /* GroupOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Models/GroupOrder.swift; sourceTree = "<group>"; };
+		F00000000000000000000006 /* Enums.swift in Domain */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/Enums.swift; sourceTree = "<group>"; };
+		F00000000000000000000007 /* FoodStreetRecommendationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/FoodStreetRecommendationEngine.swift; sourceTree = "<group>"; };
+		F00000000000000000000008 /* GroupOrderStateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/GroupOrderStateMachine.swift; sourceTree = "<group>"; };
+		F00000000000000000000009 /* ScheduledOfferEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/ScheduledOfferEngine.swift; sourceTree = "<group>"; };
+		F0000000000000000000010 /* LoyaltyDomainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/LoyaltyDomainService.swift; sourceTree = "<group>"; };
+		F0000000000000000000011 /* WalletLedgerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/WalletLedgerService.swift; sourceTree = "<group>"; };
+		F0000000000000000000012 /* SecureTokenGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Domain/SecureTokenGenerator.swift; sourceTree = "<group>"; };
+		F0000000000000000000013 /* KooiTripoliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/KooiTripoliApp.swift; sourceTree = "<group>"; };
+		F0000000000000000000014 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KooiTripoli/Views/ContentView.swift; sourceTree = "<group>"; };
+		F0000000000000000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = KooiTripoli/Assets.xcassets; sourceTree = "<group>"; };
+		F0000000000000000000016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = KooiTripoli/Info.plist; sourceTree = "<group>"; };
+		F0000000000000000000017 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = KooiTripoli/GoogleService-Info.plist; sourceTree = "<group>"; };
+		F0000000000000000000018 /* GMAPKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = KooiTripoli/GMAPKeys.plist; sourceTree = "<group>"; };
+		F0000000000000000000019 /* Tajawal-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/Tajawal-Regular.ttf; sourceTree = "<group>"; };
+		F0000000000000000000020 /* Tajawal-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/Tajawal-Medium.ttf; sourceTree = "<group>"; };
+		F0000000000000000000021 /* Tajawal-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/Tajawal-Bold.ttf; sourceTree = "<group>"; };
+		F0000000000000000000022 /* PlusJakartaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/PlusJakartaSans-Regular.ttf; sourceTree = "<group>"; };
+		F0000000000000000000023 /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/PlusJakartaSans-Medium.ttf; sourceTree = "<group>"; };
+		F0000000000000000000024 /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/PlusJakartaSans-SemiBold.ttf; sourceTree = "<group>"; };
+		F0000000000000000000025 /* PlusJakartaSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KooiTripoli/Fonts/PlusJakartaSans-Bold.ttf; sourceTree = "<group>"; };
+		F0000000000000000000026 /* KooiTripoli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KooiTripoli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F1S2R3Q4P5 /* Frameworks */ = {
+		PBXFRAMEWORKS000000000000001 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -103,83 +103,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		M1N2O3P4Q5 /* KooiTripoli */ = {
+		GRP00000000000000000000001 /* KooiTripoli */ = {
 			isa = PBXGroup;
 			children = (
-				M1N2O3P4Q6 /* Models */,
-				M1N2O3P4Q7 /* Domain */,
-				M1N2O3P4Q8 /* Views */,
-				M1N2O3P4Q9 /* Resources */,
-				M1N2O3P4Q10 /* Fonts */,
-				S1T2R3Q4P18 /* KooiTripoliApp.swift */,
-				S1T2R3Q4P21 /* Assets.xcassets */,
-				P1Q2R3S4T5 /* Products */,
+				GRP00000000000000000000002 /* Models */,
+				GRP00000000000000000000003 /* Domain */,
+				GRP00000000000000000000004 /* Views */,
+				GRP00000000000000000000005 /* Resources */,
+				GRP00000000000000000000006 /* Fonts */,
+				F0000000000000000000013 /* KooiTripoliApp.swift */,
+				F0000000000000000000015 /* Assets.xcassets */,
+				GRP00000000000000000000007 /* Products */,
 			);
 			path = KooiTripoli;
 			sourceTree = "<group>";
 		};
-		M1N2O3P4Q6 /* Models */ = {
+		GRP00000000000000000000002 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				S1T2R3Q4P6 /* Enums.swift */,
-				S2T2R3Q4P7 /* Restaurant.swift */,
-				S3T2R3Q4P8 /* Order.swift */,
-				S4T2R3Q4P9 /* LoyaltyWallet.swift */,
-				S5T2R3Q4P10 /* GroupOrder.swift */,
+				F0000000000000000000001 /* Enums.swift */,
+				F0000000000000000000002 /* Restaurant.swift */,
+				F0000000000000000000003 /* Order.swift */,
+				F0000000000000000000004 /* LoyaltyWallet.swift */,
+				F0000000000000000000005 /* GroupOrder.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
 		};
-		M1N2O3P4Q7 /* Domain */ = {
+		GRP00000000000000000000003 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				S6T2R3Q4P11 /* Enums.swift in Domain */,
-				S7T2R3Q4P12 /* FoodStreetRecommendationEngine.swift */,
-				S8T2R3Q4P13 /* GroupOrderStateMachine.swift */,
-				S9T2R3Q4P14 /* ScheduledOfferEngine.swift */,
-				S10T2R3Q4P15 /* LoyaltyDomainService.swift */,
-				S11T2R3Q4P16 /* WalletLedgerService.swift */,
-				S12T2R3Q4P17 /* SecureTokenGenerator.swift */,
+				F0000000000000000000006 /* Enums.swift in Domain */,
+				F0000000000000000000007 /* FoodStreetRecommendationEngine.swift */,
+				F0000000000000000000008 /* GroupOrderStateMachine.swift */,
+				F0000000000000000000009 /* ScheduledOfferEngine.swift */,
+				F0000000000000000000010 /* LoyaltyDomainService.swift */,
+				F0000000000000000000011 /* WalletLedgerService.swift */,
+				F0000000000000000000012 /* SecureTokenGenerator.swift */,
 			);
 			name = Domain;
 			sourceTree = "<group>";
 		};
-		M1N2O3P4Q8 /* Views */ = {
+		GRP00000000000000000000004 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				S1T2R3Q4P19 /* ContentView.swift */,
+				F0000000000000000000014 /* ContentView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
 		};
-		M1N2O3P4Q9 /* Resources */ = {
+		GRP00000000000000000000005 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				S1T2R3Q4P20 /* Info.plist */,
-				S1T2R3Q4P22 /* GoogleService-Info.plist */,
-				S1T2R3Q4P23 /* GMAPKeys.plist */,
+				F0000000000000000000016 /* Info.plist */,
+				F0000000000000000000017 /* GoogleService-Info.plist */,
+				F0000000000000000000018 /* GMAPKeys.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		M1N2O3P4Q10 /* Fonts */ = {
+		GRP00000000000000000000006 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				S1T2R3Q4P24 /* Tajawal-Regular.ttf */,
-				S1T2R3Q4P25 /* Tajawal-Medium.ttf */,
-				S1T2R3Q4P26 /* Tajawal-Bold.ttf */,
-				S1T2R3Q4P27 /* PlusJakartaSans-Regular.ttf */,
-				S1T2R3Q4P28 /* PlusJakartaSans-Medium.ttf */,
-				S1T2R3Q4P29 /* PlusJakartaSans-SemiBold.ttf */,
-				S1T2R3Q4P30 /* PlusJakartaSans-Bold.ttf */,
+				F0000000000000000000019 /* Tajawal-Regular.ttf */,
+				F0000000000000000000020 /* Tajawal-Medium.ttf */,
+				F0000000000000000000021 /* Tajawal-Bold.ttf */,
+				F0000000000000000000022 /* PlusJakartaSans-Regular.ttf */,
+				F0000000000000000000023 /* PlusJakartaSans-Medium.ttf */,
+				F0000000000000000000024 /* PlusJakartaSans-SemiBold.ttf */,
+				F0000000000000000000025 /* PlusJakartaSans-Bold.ttf */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
 		};
-		P1Q2R3S4T5 /* Products */ = {
+		GRP00000000000000000000007 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				P2Q3R4S5T6 /* KooiTripoli.app */,
+				F0000000000000000000026 /* KooiTripoli.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,13 +187,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		K1L2M3N4O5P6Q7R8S9T0 /* KooiTripoli */ = {
+		TGT00000000000000000000001 /* KooiTripoli */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1C2D3E4F5A6B7C8D9E0F1 /* Build configuration list for PBXNativeTarget "KooiTripoli" */;
+			buildConfigurationList = CFG00000000000000000000002 /* Build configuration list for PBXNativeTarget "KooiTripoli" */;
 			buildPhases = (
-				S1T2R3Q4P5 /* Sources */,
-				F1S2R3Q4P5 /* Frameworks */,
-				L1S2R3Q4P5 /* Resources */,
+				PBXSOURCES00000000000000001 /* Sources */,
+				PBXFRAMEWORKS000000000000001 /* Frameworks */,
+				PBXRESOURCES000000000000001 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -201,19 +201,19 @@
 			);
 			name = KooiTripoli;
 			productName = KooiTripoli;
-			productReference = P2Q3R4S5T6 /* KooiTripoli.app */;
+			productReference = F0000000000000000000026 /* KooiTripoli.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6FC806E1234567890ABCDEF0 /* Project object */ = {
+		PRJ00000000000000000000001 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 1500;
 				LastUpgradeCheck = 1640;
 			};
-			buildConfigurationList = A1B2C3D4E5F6A1B2C3D4E5F6 /* Build configuration list for PBXProject "KooiTripoli" */;
+			buildConfigurationList = CFG00000000000000000000001 /* Build configuration list for PBXProject "KooiTripoli" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,17 +221,17 @@
 				en,
 				Base,
 			);
-			mainGroup = M1N2O3P4Q5 /* KooiTripoli */;
+			mainGroup = GRP00000000000000000000001 /* KooiTripoli */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				K1L2M3N4O5P6Q7R8S9T0 /* KooiTripoli */,
+				TGT00000000000000000000001 /* KooiTripoli */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		L1S2R3Q4P5 /* Resources */ = {
+		PBXRESOURCES000000000000001 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,7 +252,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		S1T2R3Q4P5 /* Sources */ = {
+		PBXSOURCES00000000000000001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -279,7 +279,7 @@
 		/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		R1S2T3D4 /* Release */ = {
+		CFG00000000000000000000003 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -305,7 +305,7 @@
 			};
 			name = Release;
 		};
-		D4E3C2B1 /* Debug */ = {
+		CFG00000000000000000000004 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -331,7 +331,7 @@
 			};
 			name = Debug;
 		};
-		R1S2T3D4_1 /* Release */ = {
+		CFG00000000000000000000005 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -339,7 +339,7 @@
 			};
 			name = Release;
 		};
-		D4E3C2B1_1 /* Debug */ = {
+		CFG00000000000000000000006 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -350,23 +350,23 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCBuildConfigurationList section */
-		A1B2C3D4E5F6A1B2C3D4E5F6 /* Build configuration list for PBXProject "KooiTripoli" */ = {
+		CFG00000000000000000000001 /* Build configuration list for PBXProject "KooiTripoli" */ = {
 			isa = XCBuildConfigurationList;
 			buildConfigurations = (
-				R1S2T3D4_1 /* Release */,
-				D4E3C2B1_1 /* Debug */,
+				CFG00000000000000000000005 /* Release */,
+				CFG00000000000000000000006 /* Debug */,
 			);
 			defaultConfigurationName = Release;
 		};
-		B1C2D3E4F5A6B7C8D9E0F1 /* Build configuration list for PBXNativeTarget "KooiTripoli" */ = {
+		CFG00000000000000000000002 /* Build configuration list for PBXNativeTarget "KooiTripoli" */ = {
 			isa = XCBuildConfigurationList;
 			buildConfigurations = (
-				R1S2T3D4 /* Release */,
-				D4E3C2B1 /* Debug */,
+				CFG00000000000000000000003 /* Release */,
+				CFG00000000000000000000004 /* Debug */,
 			);
 			defaultConfigurationName = Release;
 		};
 /* End XCBuildConfigurationList section */
 	};
-	rootObject = 6FC806E1234567890ABCDEF0 /* Project object */;
+	rootObject = PRJ00000000000000000000001 /* Project object */;
 }
