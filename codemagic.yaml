@@ -5,25 +5,24 @@
 # ⚠️ This workflow was previously tested and pushed an app to TestFlight Internal.
 #   The yaml is configured for a SwiftUI project — CocoaPods are NOT needed.
 
-# ⚠️ REQUIRED: Configure 'kool_tripoli_build_secrets' group on codemagic.io with 8 variables:
+# ⚠️ REQUIRED: Configure 'kool_build_secrets' group on codemagic.io with 8 variables:
 #   CM_CERTIFICATE            base64 of distribution .p12 certificate
 #   CM_CERTIFICATE_PASSWORD   p12 password
 #   CM_PROVISIONING_PROFILE   base64 of KooiTripoli_Dist.mobileprovision
+#   APP_STORE_CONNECT_PRIVATE_KEY  base64 of ASC API key .p8
+#   APP_STORE_CONNECT_KEY_IDENTIFIER  ASC API key ID
+#   APP_STORE_CONNECT_ISSUER_ID  ASC API issuer ID
 #   TEAM_ID                   Apple Developer Team ID (9FFXKQ75HM)
 #   BUNDLE_ID                 com.kooi.tripoli
 #   PROFILE_NAME              KooiTripoli Dist
-#   PROFILE_UUID              <provisioning-profile-UUID>
 #   SCHEME                    KooiTripoli
 
-# ⚠️ IMPORTANT: cocoapods is set to "skip" — this is a pure SwiftUI project
-#   with NO CocoaPods dependencies. Setting cocoapods: default will attempt
-#   pod install and cause: "Failed to install dependencies for pubspec file"
-#   because there is no Podfile or pubspec.yaml in this project.
+# ⚠️ IMPORTANT: cocoapods is set to "skip" — this is a pure SwiftUI project with no CocoaPods dependencies.
 
 # Workflow: ios-release
 # Instance type: mac_mini_m2
 # Max build duration: 60 minutes
-# Xcode: latest
+# Xcode: 16.4
 # CocoaPods: skip (pure SwiftUI project - no pods needed)
 
 workflows:
@@ -40,9 +39,8 @@ workflows:
         TEAM_ID: 9FFXKQ75HM
         BUNDLE_ID: com.kooi.tripoli
         PROFILE_NAME: KooiTripoli Dist
-        PROFILE_UUID: <provisioning-profile-uuid>
         SCHEME: KooiTripoli
-        WORKSPACE: KooiTripoli.xcworkspace
+        PROJECT_FILE: KooiTripoli.xcodeproj
     triggering:
       events:
         - push
@@ -65,10 +63,12 @@ workflows:
             --certificate-password "$CM_CERTIFICATE_PASSWORD"
 
           echo "$CM_PROVISIONING_PROFILE" | base64 --decode > /tmp/profile.mobileprovision
+          security cms -D -i /tmp/profile.mobileprovision > /tmp/profile.plist
+          PROFILE_UUID=$(/usr/libexec/PlistBuddy -c "Print UUID" /tmp/profile.plist)
           mkdir -p "$HOME/Library/MobileDevice/Provisioning Profiles"
           cp /tmp/profile.mobileprovision \
              "$HOME/Library/MobileDevice/Provisioning Profiles/$PROFILE_UUID.mobileprovision"
-          rm -f /tmp/certificate.p12 /tmp/profile.mobileprovision
+          rm -f /tmp/certificate.p12 /tmp/profile.mobileprovision /tmp/profile.plist
 
       - name: Verify signing assets
         script: |
@@ -93,7 +93,7 @@ workflows:
           mkdir -p build/ios/xcarchive build/ios/ipa
 
           xcodebuild archive \
-            -workspace "$WORKSPACE" \
+            -project "$PROJECT_FILE" \
             -scheme "$SCHEME" \
             -configuration Release \
             -destination "generic/platform=iOS" \
@@ -105,7 +105,7 @@ workflows:
 
           cat > /tmp/export-options.plist <<PLIST
           <?xml version="1.0" encoding="UTF-8"?>
-          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
           <plist version="1.0">
           <dict>
             <key>method</key>
@@ -133,17 +133,19 @@ workflows:
 
           ls -lh build/ios/ipa
 
-      # Uncomment and configure once App Store Connect API key is available:
-      # - name: Upload to TestFlight
-      #   script: |
-      #     set -e
-      #     cd "$CM_BUILD_DIR"
-      #     echo "$APP_STORE_CONNECT_PRIVATE_KEY" | base64 --decode > ~/AuthKey_$APP_STORE_CONNECT_KEY_IDENTIFIER.p8
-      #     xcrun altool --upload-app \
-      #       -f build/ios/ipa/*.ipa \
-      #       -t ios \
-      #       --apiKey "$APP_STORE_CONNECT_KEY_IDENTIFIER" \
-      #       --apiIssuer "$APP_STORE_CONNECT_ISSUER_ID"
+      - name: Upload to TestFlight
+        script: |
+          set -e
+          cd "$CM_BUILD_DIR"
+          : "${APP_STORE_CONNECT_PRIVATE_KEY:?missing APP_STORE_CONNECT_PRIVATE_KEY}"
+          : "${APP_STORE_CONNECT_KEY_IDENTIFIER:?missing APP_STORE_CONNECT_KEY_IDENTIFIER}"
+          : "${APP_STORE_CONNECT_ISSUER_ID:?missing APP_STORE_CONNECT_ISSUER_ID}"
+          echo "$APP_STORE_CONNECT_PRIVATE_KEY" | base64 --decode > ~/AuthKey_$APP_STORE_CONNECT_KEY_IDENTIFIER.p8
+          xcrun altool --upload-app \
+            -f build/ios/ipa/*.ipa \
+            -t ios \
+            --apiKey "$APP_STORE_CONNECT_KEY_IDENTIFIER" \
+            --apiIssuer "$APP_STORE_CONNECT_ISSUER_ID"
 
     artifacts:
       - build/ios/ipa/*.ipa
@@ -153,6 +155,6 @@ workflows:
 # Notes:
 # - This workflow skips CocoaPods entirely (pure SwiftUI project)
 # - Build duration: ~15-20 minutes on mac_mini_m2 (no pod install)
-# - Secret group 'kool_tripoli_build_secrets' must be configured on codemagic.io
+# - Secret group 'kool_build_secrets' must be configured on codemagic.io
 # - Distribution certificate and provisioning profile must be valid and not expired
 # - Minimum iOS version: 15.0 (project targets 17.0, WebRTC-lib 137.0.0 requirement)
